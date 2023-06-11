@@ -1,0 +1,168 @@
+%-------------------------
+% Resume in Latex
+% Author : Manoj kumar
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/manojkumaruriti/}{\Large MANOJKUMAR URITI}} & Email : \href{mailto:u.manoj3p0@gmail.com}{u.manoj3p0@gmail.com}\\
+  \href{https://www.linkedin.com/in/manojkumaruriti/}{LinkedIn} & Mobile : +91 9985724145 \\
+\end{tabular*}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      { EPAM SYSTEMS}{Hyderabad, Telangana State}
+      {Software Engineer - II }{DEC 2021 - Present}
+      \resumeItemListStart
+        \resumeItem{Canadian Tire Enterprise Application}
+          {Experienced developer with expertise in Azure technologies, including Azure Functions, Event Hubs, Cosmos DB, and Blob storage accounts. Skilled in developing Restful APIs and asynchronous serverless functions. Proficient in Java 8 Functional programming, multi-threading, and concurrency. Strong experience in unit testing, logging, and Swagger documentation. Collaborates effectively with cross-functional teams for project delivery.}
+        \resumeItem{Library Management System Using Microservices Architecture}
+          {Skilled developer with expertise in Microservices architecture, Spring Boot, and Spring Cloud ecosystem. Developed a highly scalable Library Management System with secure access using JWT and OAuth Spring Security. Proficient in unit testing and a range of tools and technologies including Spring Rest, Mockito, and PostMan.}
+          \resumeItem{Password Management Tool}
+          {Experienced developer with expertise in iterative development, backend development using Hibernate ORM and Spring Core for Dependency injection. Proficient in Spring Data JPA, Spring MVC with JSP for presentation, and Spring Boot for creating REST APIs. Developed a Password Management Tool app with strong encryption for storing user's personal data and managing passwords for different applications/websites/accounts with high security.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Cognizant Technology Solutions}{Hyderabad, Telangana State}
+      {Program Analyst}{Mar 2021 - Nov 2021}
+      \resumeItemListStart
+        \resumeItem{Client -  Pacific Life Insurance Company}
+          {Experienced developer with a deep understanding of various programming languages and technologies, including cloud computing, web development, and mobile app development. Committed to staying up-to-date with the latest advancements in technology and developing efficient solutions for complex problems. A team player with experience collaborating with cross-functional teams for successful project delivery. Dedicated to delivering high-quality work and exceeding expectations.}
+         \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Raghu Engineering College (Autonomous)}{Visakhapatnam, Andhra Pradesh}
+      {Bachelor of Technology in CSE ;  CGPA: 8.78}{Jun. 2017 -- Aug. 2021}
+    \resumeSubheading
+      {Dr.Lankapalli Bullayya College}{Visakhapatnam, Andhra Pradesh}
+      {Board of Secondary and Intermediate Education ;  CGPA: 9.40}{Jun. 2015 -- Apr. 2017}
+  \resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------------
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+% in the document body
+\section{Projects}
+\begin{itemize}[leftmargin=*]
+  \item{\small CTCO - ECS Retail and Distribution Enterprise Sourcing Management \hfill Apr 2022 -  present}
+  \item{\small Library Management System Using Microservices Architecture \hfill Feb 2022 - Mar 2022}
+  \item{\small Password Management Tool \hfill Dec 2021 - Jan 2022}
+  \item{\small Automation Of Pacific Life Website \hfill Aug 2021 - Nov 2021}
+  \item{\small OrangeHRM \hfill Apr 2021 - Jul 2021}
+  \item{\small Just dial website Automation \hfill Jan 2021 - Mar 2021}
+   \item{\small Mainspring Application \hfill Jun 2020 - Dec 2020}
+  \item{\small Open-source software. \hfill Jan 2019 - May 2019}
+\end{itemize}
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Java 8, Java 11+, Python, Javascript, C++, SQL, NoSQL, CSS, HTML, Angular, Node.js}
+     \hfill
+     \textbf{Technologies}{: Azure, Maven, Gradle, Spring Boot, Spring, Selenium, AWS, React, Kafka, GCP}
+   }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+%--------PROGRAMMING SKILLS------------
+\section{Achievements and Certifications}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Certifications}{: Microsoft Certified: Azure Developer Associate, Administrator Associate, Fundamentals, Java Developer Professional, Certified: Angular, JavaScript, SQL Databases   }
+     
+     \textbf{Achievements}{: ACM ICPC Kanpur regionals : Secured 87th rank in Kanpur regionals 2020-2021}
+   }
+ \resumeSubHeadingListEnd
+
+ 
+%-------------------------------------------
+\end{document}
